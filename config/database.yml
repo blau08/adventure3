@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  database: text_adventure_development
+  username: test
+  password: testing
+  encoding: UTF8
+
+test:
+  adapter: postgresql
+  database: text_adventure_test
+  username: test
+  password: testing
+  encoding: UTF8
