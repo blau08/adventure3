@@ -1,11 +1,11 @@
 source("http://www.rubygems.org")
 
-gem('sinatra-contrib', :require => "sinatra/reloader")
-gem('sinatra-activerecord')
-gem('rake')
-gem('pg')
-gem('sinatra')
-gem('pry')
 gem('rspec')
+gem('pry')
+gem('pg')
+gem('sinatra-activerecord')
+gem('sinatra')
 gem('capybara')
-gem('shoulda-matchers')
+gem('sinatra-contrib', :require=> 'sinatra/reloader')
+gem('rake')
+gem 'shoulda-matchers'
